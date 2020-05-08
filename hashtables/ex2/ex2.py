@@ -8,10 +8,6 @@ def reconstruct_trip(tickets, length):
 
     cache = {}
     route = []
-    
-    """
-    YOUR CODE HERE
-    """
 
     for index, ticket in enumerate(tickets):
         cache[ticket.source] = ticket.destination
