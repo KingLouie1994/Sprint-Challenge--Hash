@@ -4,6 +4,22 @@ def intersection(arrays):
     YOUR CODE HERE
     """
 
+    result = []
+    ht = {}
+
+    for array in arrays:
+        for item in array:
+            if item in ht:
+                ht[item] += 1
+            else:
+                ht[item] = 1
+
+    for index, number in enumerate(ht):
+        if ht[number] == len(arrays):
+            result.append(number)
+
+    return result
+
     return result
 
 

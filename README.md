@@ -1,3 +1,4 @@
+Luis Schekerka
 # Sprint Challenge: Hash Tables
 
 This challenge allows you to practice the concepts and techniques
